@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Главная"
+        android:orderInCategory="1"
+        android:id="@+id/firstFragment2"
+        android:icon="@drawable/wallet2"/>
+    <item android:title="карты"
+        android:orderInCategory="2"
+        android:id="@+id/secondFragment2"
+        android:icon="@drawable/credit_footer"/>
+    <item android:title="Истроия"
+        android:orderInCategory="3"
+        android:id="@+id/thrithFragment2"
+        android:icon="@drawable/clock"/>
+    <item android:title="Кэшбек"
+        android:orderInCategory="4"
+        android:id="@+id/forthFragment2"
+        android:icon="@drawable/procent"/>
+    <item android:title="Профиль"
+        android:orderInCategory="5"
+        android:id="@+id/fiveFragment2"
+        android:icon="@drawable/avatar"/>
+</menu>

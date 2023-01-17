@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/firstFragment2">
+
+    <fragment
+        android:id="@+id/thrithFragment2"
+        android:name="com.example.qiwi.ThrithFragment"
+        android:label="fragment_thrith"
+        tools:layout="@layout/fragment_thrith" />
+    <fragment
+        android:id="@+id/firstFragment2"
+        android:name="com.example.qiwi.FirstFragment"
+        android:label="fragment_first"
+        tools:layout="@layout/fragment_first" />
+    <fragment
+        android:id="@+id/fiveFragment2"
+        android:name="com.example.qiwi.FiveFragment"
+        android:label="fragment_five"
+        tools:layout="@layout/fragment_five" />
+    <fragment
+        android:id="@+id/forthFragment2"
+        android:name="com.example.qiwi.ForthFragment"
+        android:label="fragment_forth"
+        tools:layout="@layout/fragment_forth" />
+    <fragment
+        android:id="@+id/secondFragment2"
+        android:name="com.example.qiwi.SecondFragment"
+        android:label="fragment_second"
+        tools:layout="@layout/fragment_second" />
+</navigation>

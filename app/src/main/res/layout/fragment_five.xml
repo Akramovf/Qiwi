@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@color/white"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FiveFragment">
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/logo"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </Toolbar>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:text="Номер Qiwi кошелька"
+                android:layout_width="wrap_content"
+                android:paddingBottom="1dp"
+                android:layout_height="20dp"/>
+        </Toolbar>
+        <TextView
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="32dp"
+            android:text="+992 88 9* **889"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_marginTop="14dp"
+            android:background="@color/for_hint"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/qiwiicon"/>
+            <TextView
+                android:text="Идентификация "
+                android:textSize="21sp"
+                android:textColor="@color/black"
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <ImageButton
+                android:paddingLeft="120dp"
+                android:background="?attr/selectableItemBackground"
+                android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+        </Toolbar>
+        <LinearLayout
+            android:layout_marginTop="14dp"
+            android:background="@color/for_hint"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Заявки на идентификацию "
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <ImageButton
+                android:paddingLeft="136dp"
+                android:background="?attr/selectableItemBackground"
+                android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+        </Toolbar><Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Мои данные "
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <ImageButton
+            android:paddingLeft="215dp"
+            android:background="?attr/selectableItemBackground"
+            android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+    </Toolbar><Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Лимиты"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <ImageButton
+            android:paddingLeft="254dp"
+            android:background="?attr/selectableItemBackground"
+            android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+    </Toolbar><Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Настройки"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <ImageButton
+            android:paddingLeft="231dp"
+            android:background="?attr/selectableItemBackground"
+            android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+    </Toolbar>
+
+        <Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="20dp"
+                android:text="Безопасность"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="?attr/selectableItemBackground"
+                android:paddingLeft="205dp"
+                android:src="@drawable/ic_baseline_keyboard_arrow_right_24" />
+        </Toolbar>
+
+        <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Помощь "
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <ImageButton
+            android:paddingLeft="246dp"
+            android:background="?attr/selectableItemBackground"
+            android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+    </Toolbar>
+    </LinearLayout>
+        <TextView
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:textSize="21dp"
+            android:background="@drawable/for_exiting"
+            android:text="Выйти из приложения"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</LinearLayout>
